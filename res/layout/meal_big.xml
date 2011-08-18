@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:layout_width="fill_parent"
+	android:orientation="vertical" android:background="@drawable/tablecloth_selector">
+	<utils.actionbar.ActionBar android:id="@+id/actionbar"
+		style="@style/ActionBar" />
+
+	<RelativeLayout android:id="@+id/relativeLayout1"
+
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:gravity="bottom" android:layout_weight="1">
+
+		<ImageView android:scaleType="centerCrop" android:id="@+id/mealAvatar"
+			android:layout_alignParentLeft="true" android:layout_above="@+id/menuBar"
+			android:layout_width="match_parent" android:layout_height="match_parent"></ImageView>
+		<LinearLayout android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:layout_alignBottom="@+id/mealAvatar"
+			android:layout_alignRight="@+id/mealAvatar" android:layout_alignLeft="@+id/mealAvatar"
+			android:padding="5dip" android:background="#99000000">
+			<TextView android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:text="sss"
+				android:textColor="#CCC" android:textSize="30dip" android:id="@+id/mealName"></TextView>
+		</LinearLayout>
+
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:padding="10dp"
+			android:background="#AAFFFFFF" android:id="@+id/progress"
+			android:orientation="vertical" android:layout_below="@+id/actionbar"
+			android:layout_marginTop="20dip">
+			<ProgressBar android:layout_width="wrap_content"
+				android:layout_height="wrap_content" style="@android:style/Widget.ProgressBar.Inverse"
+				android:layout_gravity="center_horizontal"></ProgressBar>
+		</LinearLayout>
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="match_parent" android:orientation="horizontal"
+			android:layout_alignParentTop="true" android:layout_height="5dip"
+			android:background="@+drawable/actionbar_shadow">
+		</LinearLayout>
+	</RelativeLayout>
+	<RelativeLayout android:layout_height="wrap_content"
+		android:padding="3dip" android:layout_below="@+id/mealAvatar"
+		android:id="@+id/linearLayout3" android:background="@+drawable/toolbar_background_shape"
+		android:orientation="horizontal" android:layout_width="match_parent"
+		android:gravity="center_horizontal">
+		<ProgressBar android:layout_width="40dip"
+			android:layout_centerVertical="true" android:visibility="invisible"
+			android:layout_height="40dip"></ProgressBar>
+		<LinearLayout android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:orientation="vertical"
+			android:layout_weight="1">
+			<Button android:layout_width="wrap_content"
+				android:background="@drawable/custom_button_selector" android:id="@+id/buyButton"
+				android:layout_height="44dip" android:text="Order"
+				android:paddingLeft="30dip" android:paddingRight="30dip"
+				android:onClick="onOrderClick" android:textSize="20dip"
+				android:textColor="#555" android:layout_gravity="center_horizontal"></Button>
+		</LinearLayout>
+
+	</RelativeLayout>
+
+</LinearLayout>

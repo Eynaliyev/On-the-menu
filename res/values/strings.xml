@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">On the menu</string>
+    <string name="error_local">Something went wrong, please try again</string>
+    <string name="error_foursquare">Can\'t access Foursquare, please try again later</string><string name="error_network">Can\'t access the internet, please try again</string>
+    <string name="actionbar_activity_not_found">Something went wrong, sorry about that.</string>
+    
+    <string name="app_folder">diffmarket</string><string name="aws_access_key">XXXXXXXXXXXXXXXXX</string>
+    <string name="aws_secret_key">XXXXXXXXXXXXXXXXXXXX</string>
+    <string name="foursquare_client_id">xxxxxxxxxxxxxxxxxxx</string>
+    <string name="foursquare_client_secret">xxxxxxxxxxxxxxxxxxxxxxxxxxx</string>
+    <string name="analytics_code">xxxxxxxxxxxxxxxxx</string>
+    <string name="c2dm_sender">xxxxxxxxxxx@gmail.com</string>
+    <string name="s3_bucket">xxxxxxxxxx</string>
+    
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:orientation="vertical" android:padding="10dp">
+
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="Congratulations !"
+		android:textSize="25sp" />
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="We will notify this guy that you ordered him."
+		android:textSize="15sp" android:layout_marginBottom="10dip"
+		 />
+
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="What that means ?"
+		android:textSize="25sp" />
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="His phone will ring and he will be able to see your picture for 15s."
+		android:textSize="15sp" android:layout_marginBottom="10dip"
+		 />
+
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="What's next ?"
+		android:textSize="25sp" />
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Order who you want, and don't be surprised if one of them come talk to you."
+		android:textSize="15sp" android:layout_marginBottom="10dip"
+		 />
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent" android:layout_height="match_parent"
+		android:orientation="horizontal" android:layout_margin="20dp">
+		<Button android:textSize="16sp" android:layout_width="0px" android:layout_marginRight="8dp" android:layout_height="44px" android:text="Got it !" android:layout_weight="0.5" android:id="@+id/okButton" android:background="@drawable/custom_button_selector"></Button>
+		<Button android:textSize="16sp" android:layout_width="0px" android:layout_marginLeft="8dp" android:layout_height="44px" android:text="Cancel" android:layout_weight="0.5" android:id="@+id/cancelButton" android:background="@drawable/custom_button_selector" ></Button>
+	</LinearLayout>
+</LinearLayout>

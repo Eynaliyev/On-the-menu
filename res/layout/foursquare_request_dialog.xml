@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:padding="10dip" android:gravity="center" android:orientation="vertical">
+
+	<ImageButton android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="FourSquare"
+		android:src="@drawable/foursquare_text"
+		android:id="@+id/button"></ImageButton>
+
+</LinearLayout>

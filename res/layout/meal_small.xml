@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_height="wrap_content"
+	android:orientation="vertical" android:layout_width="wrap_content"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@+drawable/drop_background">
+
+	<ImageView android:id="@+id/mealImage" android:layout_height="match_parent"
+		android:src="@drawable/meal_no_image_small"
+		android:layout_alignParentLeft="true" android:layout_alignParentRight="true"
+		android:layout_alignParentTop="true" android:layout_alignParentBottom="true"
+		android:layout_weight="1" android:layout_width="match_parent"
+		android:scaleType="centerCrop"></ImageView>
+
+	<ImageView android:layout_height="wrap_content" android:src="@drawable/fork"
+		android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+		android:layout_alignParentBottom="true" android:layout_width="match_parent"
+		android:scaleType="fitStart" android:padding="5dip"></ImageView>
+	<ImageView android:layout_height="wrap_content" android:src="@drawable/knife"
+		android:layout_alignParentRight="true" android:layout_alignParentTop="true"
+		android:layout_alignParentBottom="true" android:layout_width="match_parent"
+		android:scaleType="fitEnd" android:padding="5dip"></ImageView>
+	<TextView android:layout_alignParentBottom="true" android:visibility="gone"
+		android:id="@+id/deliveringText" android:padding="3dp"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:background="#99000000" android:textColor="#EEE" android:text="Delivering..."></TextView>
+</RelativeLayout>
+
+

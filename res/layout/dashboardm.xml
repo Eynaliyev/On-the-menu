@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:orientation="vertical" android:background="@drawable/tablecloth_selector">
+	<utils.actionbar.ActionBar android:id="@+id/actionbar"
+		style="@style/ActionBar" />
+
+
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_weight="1">
+		
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_centerInParent="true"
+			android:background="#AAFFFFFF">
+			<TextView android:layout_width="wrap_content"
+				android:layout_centerInParent="true" android:layout_height="wrap_content"
+				android:text="
+- Set your profile picture\n
+- Check in\n
+- Put away your smartphone"
+				android:textSize="20dip" android:textStyle="bold" android:textColor="#222"
+				android:padding="20dip" android:layout_gravity="center"></TextView>
+		</RelativeLayout>
+	</RelativeLayout>
+
+
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent" android:layout_height="150dp"
+		android:orientation="horizontal" android:background="@drawable/table_selector">
+		<LinearLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_centerInParent="true">
+			<Button android:background="@drawable/profilem_selector"
+				android:layout_height="100dip" android:layout_width="75dip"
+				android:text="" android:onClick="loadProfile"></Button>
+		</LinearLayout>
+	</RelativeLayout>
+</LinearLayout>
